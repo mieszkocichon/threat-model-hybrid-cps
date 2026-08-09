@@ -1,0 +1,41 @@
+STRIDE_Category,Trust_Boundary,Technique_ID,CVSS_AttackVector_derived,Anchored_CVSS_real,Severity,Severity_Provenance,Rationale
+Spoofing,B1,T0859,AV:N,,Critical,author qualitative (Warstwa A),Skradzione poswiadczenia VPN/SD-WAN = pelny przyczolek IT (Colonial/DarkSide); osiagalne sieciowo
+Spoofing,B2,T0822,AV:N,,High,author qualitative (Warstwa A),MITRE dokumentuje technike wobec VPN Server / Jump Host - klasy zasobu eksponowanej na B2
+Spoofing,B3,T1692.002,AV:A,,High,author qualitative (Warstwa A),Rogue MQTT/OPC-UA publisher podaje falszywa telemetrie; skutek posredni przez decyzje operatora
+Spoofing,B4,T0848,AV:A,,Critical,author qualitative (Warstwa A),MITRE dokumentuje Rogue Master wobec PLC/RTU/IED/Data Gateway - klas zasobu eksponowanych na B4
+Spoofing,B5,T0849,AV:L,,Medium,author qualitative (Warstwa A),"MITRE dokumentuje Masquerading wobec Workstation; na B5 to enabler dla T0843, nie skutek wprost"
+Spoofing,B6,T1692.001,AV:L,,High,author qualitative (Warstwa A),MITRE dokumentuje technike wobec HMI/PLC/PAC - klas zasobu eksponowanych na B6
+Spoofing,B7,T0848,AV:L,,Critical,author qualitative (Warstwa A),MITRE dokumentuje Rogue Master wobec Safety Controller - klasy zasobu eksponowanej na B7
+Tampering,B1,T0832,AV:N,,Medium,author qualitative (Warstwa A),"Warstwa A: technika taktyki Impact, dla ktorej MITRE nie publikuje powiazan z klasa zasobu (0/12) - test klasy zasobu nieokreslony; lokalny HMI jako fallback ogranicza szkode"
+Tampering,B2,T0830,AV:N,,High,author qualitative (Warstwa A),MITRE dokumentuje AiTM wobec Firewall/Jump Host/Routers - klas zasobu eksponowanych na B2
+Tampering,B3,T0831,AV:A,,Critical,author qualitative (Warstwa A),Nadpisanie setpointu na brokerze = utrata sterowania; eksponowany szew cloud-edge
+Tampering,B4,T0835,AV:A,,High,author qualitative (Warstwa A),Bezposrednia manipulacja obrazu I/O (rdzen Stuxneta) do S7 PLC
+Tampering,B4,T1693,AV:N,,High,author qualitative (Warstwa A),"Firmware pushowany z chmury; wysoki skutek, ale poziom firmware trudniejszy w realizacji"
+Tampering,B5,T0873.001,AV:L,CVSS v2 6.9 (CVE-2012-3015; Medium),High,author qualitative severity; CVE anchor = wektor ataku,STEP7 laduje DLL z folderu projektu bez walidacji; powaga podniesiona przez sparowanie z T0843
+Tampering,B6,T0832,AV:L,,High,author qualitative (Warstwa A),"Warstwa A: technika taktyki Impact, test klasy zasobu nieokreslony; walidacja lokalizuje T0832 na B6 w studium Stuxneta"
+Tampering,B7,T1693.001,AV:L,,Critical,author qualitative (Warstwa A),MITRE dokumentuje System Firmware wobec PLC/Safety Controller - klas zasobu eksponowanych na B7; wzorzec Tritona
+Repudiation,B1,T0872,AV:N,,Low,author qualitative (Warstwa A),"MITRE dokumentuje technike wobec Application Server/Control Server - klas zasobu eksponowanych na B1; enabler, nie skutek wprost"
+Repudiation,B2,,AV:N,,Low,author qualitative (Warstwa A),"BRAK ODPOWIEDNIKA w ATT&CK ICS - asymetria frameworkow = wynik analityczny, nie placeholder"
+Repudiation,B5,,AV:L,,Low,author qualitative (Warstwa A),OT bez logowania by design - flag w Ograniczeniach
+Repudiation,B7,T0872,AV:L,,Medium,author qualitative (Warstwa A),MITRE dokumentuje technike wobec PLC/Safety Controller - klas zasobu eksponowanych na B7; utrata materialu dowodowego na sciezce safety
+Information Disclosure,B1,T0802,AV:N,,Medium,author qualitative (Warstwa A),Industroyer uzywa T0802; brak bezposredniego skutku fizycznego
+Information Disclosure,B2,T0893,AV:N,,Medium,author qualitative (Warstwa A),MITRE dokumentuje Data from Local System wobec Firewall/Jump Host/Switch - klas zasobu eksponowanych na B2
+Information Disclosure,B3,T0801,AV:A,,Medium,author qualitative (Warstwa A),MITRE dokumentuje Monitor Process State wobec Data Gateway/Control Server - klas zasobu eksponowanych na B3
+Information Disclosure,B4,T0842,AV:A,,High,author qualitative (Warstwa A),Jawny fieldbus trywialnie podsluchiwalny na bramce brzegowej; umiarkowana szkoda
+Information Disclosure,B5,T0845,AV:L,,Medium,author qualitative (Warstwa A),MITRE dokumentuje Program Upload wobec PLC/PAC/DCS - klas zasobu eksponowanych na B5; faza rozpoznania Tritona
+Information Disclosure,B6,T0852,AV:L,,Low,author qualitative (Warstwa A),MITRE dokumentuje Screen Capture wobec HMI - klasy zasobu eksponowanej na B6
+Information Disclosure,B7,T0868,AV:L,,Medium,author qualitative (Warstwa A),MITRE dokumentuje Detect Operating Mode wobec PLC/Safety Controller - klas zasobu eksponowanych na B7
+DoS,B1,T0815,AV:N,,Medium,author qualitative (Warstwa A),"Warstwa A: technika taktyki Impact, test klasy zasobu nieokreslony; lokalny HMI jako fallback ogranicza szkode"
+DoS,B2,T0814,AV:N,,High,author qualitative (Warstwa A),MITRE dokumentuje Denial of Service wobec Firewall/Jump Host/VPN Server - klas zasobu eksponowanych na B2
+DoS,B3,T0813,AV:N,,High,author qualitative (Warstwa A),"Warstwa A: technika taktyki Impact, test klasy zasobu nieokreslony; AV:N sledzi punkt inicjacji (wezly chmurowe powyzej B3)"
+DoS,B4,T1691.002,AV:A,,High,author qualitative (Warstwa A),Wyczerpanie bramki blokuje alarmy = krytyczne; mniej oczywisty wektor
+DoS,B5,T1695.002,AV:L,,Medium,author qualitative (Warstwa A),MITRE dokumentuje Block Communications: Ethernet wobec PLC/PAC/DCS - klas zasobu eksponowanych na B5
+DoS,B6,T0815,AV:L,,High,author qualitative (Warstwa A),"Warstwa A: technika taktyki Impact, test klasy zasobu nieokreslony; utrata podgladu lokalnego usuwa fallback z wiersza B1"
+DoS,B7,T0816,AV:L,,Critical,author qualitative (Warstwa A),MITRE dokumentuje Device Restart/Shutdown wobec PLC/Safety Controller - klas zasobu eksponowanych na B7; okno bez ochrony SIS
+Elevation of Privilege,B1,T0819,AV:N,,High,author qualitative (Warstwa A),MITRE dokumentuje Exploit Public-Facing Application wobec Application Server/Firewall - klas zasobu eksponowanych na B1
+Elevation of Privilege,B2,T0890,AV:N,,Medium,author qualitative (Warstwa A),"Zastapiono T0843: MITRE wiaze Program Download wylacznie z PLC/PAC/DCS/Safety Controller, ktorych B2 nie eksponuje. T0890 jest dokumentowana wobec Firewall/Jump Host/Routers"
+Elevation of Privilege,B3,T0866,AV:A,,High,author qualitative (Warstwa A),MITRE dokumentuje Exploitation of Remote Services wobec Data Gateway/Application Server/Control Server - klas zasobu eksponowanych na B3
+Elevation of Privilege,B4,T0890,AV:A,,High,author qualitative (Warstwa A),MITRE dokumentuje Exploitation for Privilege Escalation wobec Data Gateway/DCS/PLC - klas zasobu eksponowanych na B4
+Elevation of Privilege,B5,T0843,AV:N,CVSS v3 10.0 (CVE-2021-22681; Critical),Critical,real CVSS anchor,Brak patcha + trywialny exploit + pelny dostep do PLC; AV:N przejete z opublikowanego wektora NVD
+Elevation of Privilege,B6,T0823,AV:L,,Medium,author qualitative (Warstwa A),MITRE dokumentuje Graphical User Interface wobec HMI - klasy zasobu eksponowanej na B6
+Elevation of Privilege,B7,T0858,AV:L,,High,author qualitative (Warstwa A),Stacja inz. -> reprogramowanie SIS przez Change Operating Mode; punktacja niedowaza katastrofalnej-lecz-rzadkiej sciezki SIS

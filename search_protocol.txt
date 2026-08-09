@@ -1,0 +1,42 @@
+PROTOKOL WYSZUKIWANIA -- OpenAlex, okno 2015-01-01..2026-08-08
+==============================================================================
+Q1  STRIDE AND ATT&CK
+     trafien: 69
+Q2  STRIDE AND (ICS OR "industrial control")
+     trafien: 91
+Q3  ATT&CK AND "cyber-physical" AND (cloud OR edge)
+     trafien: 17
+Q4  "trust boundary" AND "threat model" AND (ICS OR "industrial control")
+     trafien: 3
+
+Rekordow surowych                       : 180
+Po deduplikacji                         : 162
+Po screeningu tytulow (termin domenowy) : 103   (odrzucono 59, gl. homonim 'stride')
+I1 -- taksonomia w tytule               : 20
+I2 -- domena ICS/OT/CPS                 : 8  <- zbior kwalifikowany
+
+ZBIOR KWALIFIKOWANY
+------------------------------------------------------------------------------
+2017  STRIDE-based threat modeling for cyber-physical systems
+        https://doi.org/10.1109/isgteurope.2017.8260283   [Q2]
+2017  STRIDE to a Secure Smart Grid in a Hybrid Cloud
+        https://doi.org/10.1007/978-3-319-72817-9_6   [Q2]
+2022  STRIDE‐based threat modeling and DREAD evaluation for the distributed control system in 
+        https://doi.org/10.4218/etrij.2021-0181   [Q2]
+2023  Automated ICS template for STRIDE Microsoft Threat Modeling Tool
+        https://doi.org/10.1145/3600160.3605068   [Q2]
+2024  STRIDE-based Methodologies for Threat Modeling of Industrial Control Systems: A Review
+        https://doi.org/10.1109/icps59941.2024.10639949   [Q2]
+2024  Cyber Threat Modeling for Water and Wastewater Systems: Contextualizing STRIDE and DREAD
+        https://doi.org/10.1109/sieds61124.2024.10534706   [Q2]
+2026  Nation-State Malware and OT Disruption: A Cross-Case Analysis from Stuxnet to FrostyGoop
+        https://doi.org/10.2139/ssrn.6772980   [Q1,Q2]
+2026  LLM-Assisted CPSTRIDE Threat Modeling for Critical Water Infrastructure
+        https://doi.org/10.34190/iccws.21.1.4484   [Q1]
+
+Zgodnosc z liczbami raportowanymi w manuskrypcie (uruchomienie 2026-08-08):
+    raw          teraz 180   w manuskrypcie 180   zgodne
+    dedup        teraz 162   w manuskrypcie 162   zgodne
+    po_tytule    teraz 103   w manuskrypcie 103   zgodne
+    I1           teraz 20    w manuskrypcie 20    zgodne
+    I2           teraz 8     w manuskrypcie 8     zgodne

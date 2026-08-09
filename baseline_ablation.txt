@@ -1,0 +1,73 @@
+==============================================================================
+ABLACJA OSI GRANICY ZAUFANIA
+==============================================================================
+
+Wierszy mapowania warunkowanego granica : 40
+Odrebnych technik ATT&CK for ICS        : 33
+Kategorii STRIDE                        : 6
+
+Kazde mapowanie plaskie przypisuje dokladnie jedna technike na kategorie
+STRIDE, wiec jego obraz ma co najwyzej 6 technik -- niezaleznie od tego,
+ktora publikacje przyjmiemy za punkt odniesienia. Jest to ograniczenie
+strukturalne podejscia plaskiego, nie artefakt naszego doboru baseline'u.
+
+------------------------------------------------------------------------------
+TABELA A. Rozdzielczosc odbierana przez zwiniecie osi granicy
+------------------------------------------------------------------------------
+Kategoria STRIDE        granice  techniki  powagi   AV   
+Spoofing                7        6         3        3    
+Tampering               7        7         3        3    
+Repudiation             4        1         2        2    
+Information Disclosure  7        7         3        3    
+DoS                     7        6         3        3    
+Elevation of Privilege  7        6         3        3    
+
+Kategorie niestale wzgledem granicy (>1 technika) : 5/6
+Kategorie o rozbieznej powadze  (>1 powaga)       : 6/6
+Kategorie o rozbieznym AV       (>1 AV)           : 6/6
+
+------------------------------------------------------------------------------
+TABELA B. Odzysk technik zweryfikowanych przez MITRE dla incydentow
+------------------------------------------------------------------------------
+Incydent        technik MITRE   warunk. granica   per-element   plaskie (best)  
+Stuxnet         4               4                 4             1               
+Triton          5               4                 4             2               
+Industroyer     5               3                 3             2               
+Colonial        1               1                 1             1               
+RAZEM           14              11                11            5               
+
+BASELINE A (STRIDE-per-element, best case). Element wewnetrzny granicy;
+    komorek (kategoria, element) : 27  wobec 40 wierszy warunkowanych granica
+    odzysk                       : 11/14 (79%)
+    nieodzyskane                 : T0800, T0809, T0880
+    Wariant scislejszy (PLC terminuje takze B7, SIS nie jest odrebnym elementem):
+    komorek 22, odzysk 9/14 (64%)
+
+UWAGA INTERPRETACYJNA. Na odzysku technik incydentowych baseline per-element
+nie rozni sie od mapowania warunkowanego granica; przewaga osi granicy jest
+przewaga ROZDZIELCZOSCI (liczba komorek i odrebnych technik), nie odzysku.
+Roznica wobec mapowania PLASKIEGO pozostaje duza w obu wymiarach.
+
+Najlepsze mapowanie plaskie (dobrane tak, by maksymalizowac odzysk):
+    Spoofing                 -> T0859
+    Tampering                -> T0831
+    Repudiation              -> T0872
+    Information Disclosure   -> T0845
+    DoS                      -> T0813
+    Elevation of Privilege   -> T0843
+
+Odzysk warunkowany granica : 11/14 (79%)
+Odzysk plaski (best case)  : 5/14 (36%)
+
+Techniki odzyskane wylacznie dzieki warunkowaniu granica:
+    T0815, T0832, T0835, T0858, T0873.001, T1693.001
+
+UWAGA. Techniki nieodzyskane przez zadne z podejsc: T0800, T0809, T0880
+Nie jest to decyzja zakresowa: studia przypadkow lokalizuja kazda z nich
+na granicy nalezacej do modelu, wiec w sensie tabeli walidacyjnej sa
+pokryte. Odpowiadajace im komorki macierzy P3 SA rozstrzygniete, lecz na
+rzecz techniki realizujacej dana kategorie STRIDE bardziej bezposrednio.
+Odzyskanie ich wymagaloby przypisania komorce zbioru technik zamiast
+jednej - co macierz juz dopuszcza (Tampering na B4) i czego domkniecie
+pozostaje praca w toku.
+
