@@ -1,0 +1,100 @@
+plc-sim  | 2026-07-30T17:32:51.372597397Z 2026-07-30 17:32:51,372 - PLC_SIM - Process state: Level=52.5, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:32:51.379972274Z 2026-07-30 17:32:51,379 - PLC_SIM - Connected to Edge Broker with result code 0
+plc-sim  | 2026-07-30T17:32:53.375104528Z 2026-07-30 17:32:53,374 - PLC_SIM - Process state: Level=55.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:32:55.377637287Z 2026-07-30 17:32:55,377 - PLC_SIM - Process state: Level=57.5, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:32:57.380105428Z 2026-07-30 17:32:57,379 - PLC_SIM - Process state: Level=60.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:32:59.382569344Z 2026-07-30 17:32:59,382 - PLC_SIM - Process state: Level=62.5, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:01.384935959Z 2026-07-30 17:33:01,384 - PLC_SIM - Process state: Level=65.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:03.387471177Z 2026-07-30 17:33:03,387 - PLC_SIM - Process state: Level=67.5, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:05.389884530Z 2026-07-30 17:33:05,389 - PLC_SIM - Process state: Level=70.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:07.392304216Z 2026-07-30 17:33:07,391 - PLC_SIM - Process state: Level=72.5, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:09.394777389Z 2026-07-30 17:33:09,394 - PLC_SIM - Process state: Level=75.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:11.395315489Z 2026-07-30 17:33:11,394 - PLC_SIM - Process state: Level=77.5, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:13.398306292Z 2026-07-30 17:33:13,397 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:15.399008696Z 2026-07-30 17:33:15,398 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:17.401356757Z 2026-07-30 17:33:17,401 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:19.403830163Z 2026-07-30 17:33:19,403 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:21.404800472Z 2026-07-30 17:33:21,404 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:23.407323604Z 2026-07-30 17:33:23,406 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:25.409773491Z 2026-07-30 17:33:25,409 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:27.412123591Z 2026-07-30 17:33:27,411 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:29.414635495Z 2026-07-30 17:33:29,414 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:31.416833278Z 2026-07-30 17:33:31,416 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:33.419280571Z 2026-07-30 17:33:33,418 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:35.421754486Z 2026-07-30 17:33:35,421 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:37.424328187Z 2026-07-30 17:33:37,423 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:39.425283433Z 2026-07-30 17:33:39,424 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:41.426441300Z 2026-07-30 17:33:41,426 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:43.429119902Z 2026-07-30 17:33:43,428 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:45.429095756Z 2026-07-30 17:33:45,428 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:47.431728577Z 2026-07-30 17:33:47,431 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:49.433172111Z 2026-07-30 17:33:49,432 - PLC_SIM - Process state: Level=80.0, Pump=ON, Setpoint=80.0
+plc-sim  | 2026-07-30T17:33:49.935543602Z 2026-07-30 17:33:49,935 - PLC_SIM - RECEIVED COMMAND: Changing setpoint from 80.0 to 120.0
+plc-sim  | 2026-07-30T17:33:51.435312665Z 2026-07-30 17:33:51,434 - PLC_SIM - Process state: Level=82.5, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:33:53.438558356Z 2026-07-30 17:33:53,438 - PLC_SIM - Process state: Level=85.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:33:55.441017249Z 2026-07-30 17:33:55,440 - PLC_SIM - Process state: Level=87.5, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:33:57.443366560Z 2026-07-30 17:33:57,443 - PLC_SIM - Process state: Level=90.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:33:59.446979517Z 2026-07-30 17:33:59,446 - PLC_SIM - Process state: Level=92.5, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:01.448006409Z 2026-07-30 17:34:01,447 - PLC_SIM - Process state: Level=95.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:03.450595473Z 2026-07-30 17:34:03,450 - PLC_SIM - Process state: Level=97.5, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:03.450845908Z 2026-07-30 17:34:03,450 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:05.453371261Z 2026-07-30 17:34:05,453 - PLC_SIM - Process state: Level=100.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:05.453565790Z 2026-07-30 17:34:05,453 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:07.455008810Z 2026-07-30 17:34:07,454 - PLC_SIM - Process state: Level=102.5, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:07.455190611Z 2026-07-30 17:34:07,454 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:09.457529817Z 2026-07-30 17:34:09,457 - PLC_SIM - Process state: Level=105.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:09.457762911Z 2026-07-30 17:34:09,457 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:11.459200671Z 2026-07-30 17:34:11,458 - PLC_SIM - Process state: Level=107.5, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:11.459844620Z 2026-07-30 17:34:11,459 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:13.462092001Z 2026-07-30 17:34:13,461 - PLC_SIM - Process state: Level=110.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:13.462595482Z 2026-07-30 17:34:13,462 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:15.462714160Z 2026-07-30 17:34:15,462 - PLC_SIM - Process state: Level=112.5, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:15.463023639Z 2026-07-30 17:34:15,462 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:17.465367941Z 2026-07-30 17:34:17,464 - PLC_SIM - Process state: Level=115.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:17.465847150Z 2026-07-30 17:34:17,465 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:19.468283162Z 2026-07-30 17:34:19,467 - PLC_SIM - Process state: Level=117.5, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:19.468489415Z 2026-07-30 17:34:19,468 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:21.469402510Z 2026-07-30 17:34:21,469 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:21.469656286Z 2026-07-30 17:34:21,469 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:23.472071578Z 2026-07-30 17:34:23,471 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:23.472354574Z 2026-07-30 17:34:23,472 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:25.474114832Z 2026-07-30 17:34:25,473 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:25.474323504Z 2026-07-30 17:34:25,474 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:27.476824000Z 2026-07-30 17:34:27,476 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:27.476945647Z 2026-07-30 17:34:27,476 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:29.479450883Z 2026-07-30 17:34:29,478 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:29.479577311Z 2026-07-30 17:34:29,479 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:31.480302291Z 2026-07-30 17:34:31,479 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:31.480484612Z 2026-07-30 17:34:31,480 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:33.482887244Z 2026-07-30 17:34:33,482 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:33.483040341Z 2026-07-30 17:34:33,482 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:35.485301376Z 2026-07-30 17:34:35,484 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:35.485489187Z 2026-07-30 17:34:35,485 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:37.487778394Z 2026-07-30 17:34:37,487 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:37.488096853Z 2026-07-30 17:34:37,487 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:39.490520545Z 2026-07-30 17:34:39,490 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:39.491118240Z 2026-07-30 17:34:39,490 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:41.492161746Z 2026-07-30 17:34:41,491 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:41.492544419Z 2026-07-30 17:34:41,492 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:43.494878147Z 2026-07-30 17:34:43,494 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:43.495080290Z 2026-07-30 17:34:43,494 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:45.495017907Z 2026-07-30 17:34:45,494 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:45.495293853Z 2026-07-30 17:34:45,495 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:47.496491245Z 2026-07-30 17:34:47,496 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:47.496645925Z 2026-07-30 17:34:47,496 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:49.499188534Z 2026-07-30 17:34:49,498 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:49.499418939Z 2026-07-30 17:34:49,499 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:51.501822993Z 2026-07-30 17:34:51,501 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:51.502122181Z 2026-07-30 17:34:51,501 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:53.504672524Z 2026-07-30 17:34:53,504 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:53.504746458Z 2026-07-30 17:34:53,504 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:55.506262825Z 2026-07-30 17:34:55,505 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:55.506519841Z 2026-07-30 17:34:55,506 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:57.508966967Z 2026-07-30 17:34:57,508 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:57.509189121Z 2026-07-30 17:34:57,508 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:34:59.511513071Z 2026-07-30 17:34:59,511 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:34:59.511643529Z 2026-07-30 17:34:59,511 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:35:01.513813440Z 2026-07-30 17:35:01,513 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:35:01.514295789Z 2026-07-30 17:35:01,513 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)
+plc-sim  | 2026-07-30T17:35:03.516873006Z 2026-07-30 17:35:03,516 - PLC_SIM - Process state: Level=120.0, Pump=ON, Setpoint=120.0
+plc-sim  | 2026-07-30T17:35:03.517368626Z 2026-07-30 17:35:03,517 - PLC_SIM - CRITICAL: Water level exceeded safe limits (Tank Overflow Danger!)

@@ -1,0 +1,8 @@
+ATTACK LAUNCHED AT: 2026-07-30T17:33:48Z
+time="2026-07-30T19:33:49+02:00" level=warning msg="Found orphan containers ([testbed-attacker-run-d5cedba8f188]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container testbed-attacker-run-064a2155641e Creating 
+ Container testbed-attacker-run-064a2155641e Created 
+2026-07-30 17:33:49,930 - ATTACKER - Connecting to broker to perform T0831: Manipulation of Control...
+2026-07-30 17:33:49,933 - ATTACKER - INJECTING MALICIOUS SETPOINT (T0831)...
+2026-07-30 17:33:49,934 - ATTACKER - Payload: {'setpoint': 120.0}
+2026-07-30 17:33:50,936 - ATTACKER - Attack complete. Setpoint altered.
